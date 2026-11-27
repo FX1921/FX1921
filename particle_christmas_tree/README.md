@@ -1,10 +1,9 @@
-# 星尘圣诞树 V2
+# 星尘圣诞树 V3 — Gesture & Photo Orbit Prototype
+- 自动旋转3D粒子树、星顶、环形装饰和背景星尘
+- 上传多张照片，照片沿树周围的轨道漂浮旋转
+- MediaPipe手势：张掌触发粒子散开；握拳恢复完整树形
+- 捏合独立选择/聚焦照片，不改变树状态
+- 鼠标/触摸、移动端响应式布局
 
-- 自动旋转的3D粒子圣诞树、星尘螺旋、顶星与光环
-- 手势识别：张手扩散、握拳收拢、捏合聚成照片（先上传图片）
-- 触摸/鼠标拖动视角，手机响应式界面
-- 使用 Three.js 和 MediaPipe Tasks Vision CDN
-
-部署到 HTTPS 静态站点，摄像头权限需要 HTTPS 或 localhost。
-
-本版本仍需真实手机测试与进一步调校。
+Use HTTPS or localhost for camera permissions. Run `python -m http.server 8000`.
+This is an iterative prototype; test gesture recognition and visual quality on real devices.
